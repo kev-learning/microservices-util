@@ -3,26 +3,26 @@
   <groupId>com.microservices.core</groupId>
   <artifactId>microservice-util</artifactId>
   <versioning>
-    <lastUpdated>20250816044737</lastUpdated>
+    <lastUpdated>20250816053316</lastUpdated>
     <snapshot>
-      <timestamp>20250816.044737</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20250816.053316</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.0-20250816.044737-1</value>
-        <updated>20250816044737</updated>
+        <extension>module</extension>
+        <value>1.0-20250816.053316-2</value>
+        <updated>20250816053316</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20250816.044737-1</value>
-        <updated>20250816044737</updated>
+        <value>1.0-20250816.053316-2</value>
+        <updated>20250816053316</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.0-20250816.044737-1</value>
-        <updated>20250816044737</updated>
+        <extension>jar</extension>
+        <value>1.0-20250816.053316-2</value>
+        <updated>20250816053316</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
