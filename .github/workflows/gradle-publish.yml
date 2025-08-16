@@ -28,6 +28,7 @@ jobs:
         distribution: 'temurin'
         server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
         settings-path: ${{ github.workspace }} # location for the settings.xml file
+        cache: gradle
         #token: ${{ secrets.PUBLIC_REPO_ACCESS }}
 
     - name: Setup Gradle
@@ -38,7 +39,7 @@ jobs:
 
     # Publish generated files to local path /releases
     - name: Publish with Gradle
-      run: ./gradlew publish
+      run: ./gradlew publish -Pversion='1.0.0'
 
     # Commit changes to repository
     - name: Commit files
