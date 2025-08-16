@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.microservices.core",
+    "module": "microservice-util",
+    "version": "'1.0-SNAPSHOT'",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "microservice-util-'1.0-SNAPSHOT'.jar",
+          "url": "microservice-util-'1.0-SNAPSHOT'.jar",
+          "size": 7893,
+          "sha512": "48dca3ae1eb5d2c82a31474ec9a48b15db0ac49e9c3b3f1ea01dc178eb4766839d38a0e9fdb40f9bf585d99733242dbb8d82c669cb5c1b30f86802246ffd3101",
+          "sha256": "47310aa16a6be2ed39e3cfbb5c710c149e163a27525837b3d95fc1afc8683c21",
+          "sha1": "77b58426385c46d5d82c8bffee1dcae63a70e251",
+          "md5": "1fda3f02dcb4926d924b28bf5f08e44c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-dependencies",
+          "version": {
+            "requires": "3.5.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-webflux"
+        }
+      ],
+      "files": [
+        {
+          "name": "microservice-util-'1.0-SNAPSHOT'.jar",
+          "url": "microservice-util-'1.0-SNAPSHOT'.jar",
+          "size": 7893,
+          "sha512": "48dca3ae1eb5d2c82a31474ec9a48b15db0ac49e9c3b3f1ea01dc178eb4766839d38a0e9fdb40f9bf585d99733242dbb8d82c669cb5c1b30f86802246ffd3101",
+          "sha256": "47310aa16a6be2ed39e3cfbb5c710c149e163a27525837b3d95fc1afc8683c21",
+          "sha1": "77b58426385c46d5d82c8bffee1dcae63a70e251",
+          "md5": "1fda3f02dcb4926d924b28bf5f08e44c"
+        }
+      ]
+    }
+  ]
+}
