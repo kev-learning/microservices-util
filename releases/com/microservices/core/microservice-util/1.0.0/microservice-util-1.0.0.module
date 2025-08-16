@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.microservices.core",
+    "module": "microservice-util",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "microservice-util-1.0.0.jar",
+          "url": "microservice-util-1.0.0.jar",
+          "size": 7893,
+          "sha512": "01838ea1429ce4e2fa23eb0824563d8709abdef38510e90d3517e7c45a73159b0a65cd153f86efebaf033e721231dc3589eccaf7b9f50fd2f5a09a72c10c2063",
+          "sha256": "a3c443e37211d3a0d1e1afb3e16de7b037e899779643ac4152c8fb404e3cef30",
+          "sha1": "1ceeddfc85239b8941055d17275d08303c64aa26",
+          "md5": "fa6f9cc3d5841c842b8314826305c75d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-dependencies",
+          "version": {
+            "requires": "3.5.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-webflux"
+        }
+      ],
+      "files": [
+        {
+          "name": "microservice-util-1.0.0.jar",
+          "url": "microservice-util-1.0.0.jar",
+          "size": 7893,
+          "sha512": "01838ea1429ce4e2fa23eb0824563d8709abdef38510e90d3517e7c45a73159b0a65cd153f86efebaf033e721231dc3589eccaf7b9f50fd2f5a09a72c10c2063",
+          "sha256": "a3c443e37211d3a0d1e1afb3e16de7b037e899779643ac4152c8fb404e3cef30",
+          "sha1": "1ceeddfc85239b8941055d17275d08303c64aa26",
+          "md5": "fa6f9cc3d5841c842b8314826305c75d"
+        }
+      ]
+    }
+  ]
+}
