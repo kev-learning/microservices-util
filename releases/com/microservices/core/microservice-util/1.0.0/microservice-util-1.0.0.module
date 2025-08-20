@@ -27,11 +27,11 @@
         {
           "name": "microservice-util-1.0.0.jar",
           "url": "microservice-util-1.0.0.jar",
-          "size": 10386,
-          "sha512": "fc16b323fe660b1afa43b3915a6f4b22e132f450557352b3369f3da036fc37e2e9203a3864e4283a771654aacabc9630a6621c6afbad24feadcba51faecc42aa",
-          "sha256": "ac8f59c4137047be55bd9ceff7ac9391c24a80469fbfa91fb4fb8b9c59a2e2cc",
-          "sha1": "776f27cb729d8dd94168739ca670b741a413a7dc",
-          "md5": "6c04fbf66c093ac7395435500dc97365"
+          "size": 16400,
+          "sha512": "aa3bdc216f14da0d71b11ba615640573088a75c911e8bfe87bf7430ff5c702fe4406dac8b21af76c0ab04f531927d34fbb3b3f554b2e2a3cf94918334d5f5700",
+          "sha256": "c2c1b44fb2e6f484b903ba327e6d6d86143be625da0fd930b28aacf22cc19422",
+          "sha1": "1422da7a275a1be91411e63cb0ddd5a06fb87cd3",
+          "md5": "7e094e3dec5701cbc06a80aa3cc5d6be"
         }
       ]
     },
@@ -59,17 +59,21 @@
         {
           "group": "org.springframework.boot",
           "module": "spring-boot-starter-webflux"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-actuator"
         }
       ],
       "files": [
         {
           "name": "microservice-util-1.0.0.jar",
           "url": "microservice-util-1.0.0.jar",
-          "size": 10386,
-          "sha512": "fc16b323fe660b1afa43b3915a6f4b22e132f450557352b3369f3da036fc37e2e9203a3864e4283a771654aacabc9630a6621c6afbad24feadcba51faecc42aa",
-          "sha256": "ac8f59c4137047be55bd9ceff7ac9391c24a80469fbfa91fb4fb8b9c59a2e2cc",
-          "sha1": "776f27cb729d8dd94168739ca670b741a413a7dc",
-          "md5": "6c04fbf66c093ac7395435500dc97365"
+          "size": 16400,
+          "sha512": "aa3bdc216f14da0d71b11ba615640573088a75c911e8bfe87bf7430ff5c702fe4406dac8b21af76c0ab04f531927d34fbb3b3f554b2e2a3cf94918334d5f5700",
+          "sha256": "c2c1b44fb2e6f484b903ba327e6d6d86143be625da0fd930b28aacf22cc19422",
+          "sha1": "1422da7a275a1be91411e63cb0ddd5a06fb87cd3",
+          "md5": "7e094e3dec5701cbc06a80aa3cc5d6be"
         }
       ]
     }
