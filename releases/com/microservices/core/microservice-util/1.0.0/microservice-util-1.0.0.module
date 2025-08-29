@@ -27,11 +27,11 @@
         {
           "name": "microservice-util-1.0.0.jar",
           "url": "microservice-util-1.0.0.jar",
-          "size": 16400,
-          "sha512": "aa3bdc216f14da0d71b11ba615640573088a75c911e8bfe87bf7430ff5c702fe4406dac8b21af76c0ab04f531927d34fbb3b3f554b2e2a3cf94918334d5f5700",
-          "sha256": "c2c1b44fb2e6f484b903ba327e6d6d86143be625da0fd930b28aacf22cc19422",
-          "sha1": "1422da7a275a1be91411e63cb0ddd5a06fb87cd3",
-          "md5": "7e094e3dec5701cbc06a80aa3cc5d6be"
+          "size": 16976,
+          "sha512": "c685f095274504a0ce8c53f826bcf05cfdb4616b02f8ac31864a4ad9bacab7f3327fdc2209d0c43c606dd0dcafe3a84b64eaa854aef3e5d57d709fcb5b6029b6",
+          "sha256": "c8192c01cd22f0eda0f2ec0d9aef074f3dfc2cfdaad35ee41df140f1a1eb93ca",
+          "sha1": "7952bea78fbb7594451b42d4a3bd5430647b6c93",
+          "md5": "2245cc38df9688bfd725fa729c8458f6"
         }
       ]
     },
@@ -69,11 +69,11 @@
         {
           "name": "microservice-util-1.0.0.jar",
           "url": "microservice-util-1.0.0.jar",
-          "size": 16400,
-          "sha512": "aa3bdc216f14da0d71b11ba615640573088a75c911e8bfe87bf7430ff5c702fe4406dac8b21af76c0ab04f531927d34fbb3b3f554b2e2a3cf94918334d5f5700",
-          "sha256": "c2c1b44fb2e6f484b903ba327e6d6d86143be625da0fd930b28aacf22cc19422",
-          "sha1": "1422da7a275a1be91411e63cb0ddd5a06fb87cd3",
-          "md5": "7e094e3dec5701cbc06a80aa3cc5d6be"
+          "size": 16976,
+          "sha512": "c685f095274504a0ce8c53f826bcf05cfdb4616b02f8ac31864a4ad9bacab7f3327fdc2209d0c43c606dd0dcafe3a84b64eaa854aef3e5d57d709fcb5b6029b6",
+          "sha256": "c8192c01cd22f0eda0f2ec0d9aef074f3dfc2cfdaad35ee41df140f1a1eb93ca",
+          "sha1": "7952bea78fbb7594451b42d4a3bd5430647b6c93",
+          "md5": "2245cc38df9688bfd725fa729c8458f6"
         }
       ]
     }
