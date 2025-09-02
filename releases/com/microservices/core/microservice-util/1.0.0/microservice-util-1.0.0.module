@@ -27,11 +27,11 @@
         {
           "name": "microservice-util-1.0.0.jar",
           "url": "microservice-util-1.0.0.jar",
-          "size": 16976,
-          "sha512": "c685f095274504a0ce8c53f826bcf05cfdb4616b02f8ac31864a4ad9bacab7f3327fdc2209d0c43c606dd0dcafe3a84b64eaa854aef3e5d57d709fcb5b6029b6",
-          "sha256": "c8192c01cd22f0eda0f2ec0d9aef074f3dfc2cfdaad35ee41df140f1a1eb93ca",
-          "sha1": "7952bea78fbb7594451b42d4a3bd5430647b6c93",
-          "md5": "2245cc38df9688bfd725fa729c8458f6"
+          "size": 18953,
+          "sha512": "3acea9846a387af772da2c4850a8a631b5216d14204d11ede1af2381a303d98b86224b8cf52aedaeab4d22609c451362f8b4d2cff9cdcc374693d2d38c55dccb",
+          "sha256": "664910a8397f78e540e38307ad39357f6300c6ae4da8a6e54a4c2fa09d7e2227",
+          "sha1": "3943c3a70cfabfdedf795818b5cb00f56215f4f5",
+          "md5": "342ab30bfa7632f729da27fc693acca0"
         }
       ]
     },
@@ -63,17 +63,21 @@
         {
           "group": "org.springframework.boot",
           "module": "spring-boot-starter-actuator"
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-tracing-bridge-otel"
         }
       ],
       "files": [
         {
           "name": "microservice-util-1.0.0.jar",
           "url": "microservice-util-1.0.0.jar",
-          "size": 16976,
-          "sha512": "c685f095274504a0ce8c53f826bcf05cfdb4616b02f8ac31864a4ad9bacab7f3327fdc2209d0c43c606dd0dcafe3a84b64eaa854aef3e5d57d709fcb5b6029b6",
-          "sha256": "c8192c01cd22f0eda0f2ec0d9aef074f3dfc2cfdaad35ee41df140f1a1eb93ca",
-          "sha1": "7952bea78fbb7594451b42d4a3bd5430647b6c93",
-          "md5": "2245cc38df9688bfd725fa729c8458f6"
+          "size": 18953,
+          "sha512": "3acea9846a387af772da2c4850a8a631b5216d14204d11ede1af2381a303d98b86224b8cf52aedaeab4d22609c451362f8b4d2cff9cdcc374693d2d38c55dccb",
+          "sha256": "664910a8397f78e540e38307ad39357f6300c6ae4da8a6e54a4c2fa09d7e2227",
+          "sha1": "3943c3a70cfabfdedf795818b5cb00f56215f4f5",
+          "md5": "342ab30bfa7632f729da27fc693acca0"
         }
       ]
     }
